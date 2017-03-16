@@ -7,8 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3204577F1E6E458D005FE1BF /* jsonTestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3204577E1E6E458D005FE1BF /* jsonTestController.swift */; };
+		320457811E6EA78D005FE1BF /* DjPopViewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320457801E6EA78D005FE1BF /* DjPopViewDemo.swift */; };
+		32059AB21E7A6BAA00141C5A /* DemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32059AB11E7A6BAA00141C5A /* DemoVC.swift */; };
+		3219FC8E1E77B6280091A030 /* DynamicAnimatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3219FC8D1E77B6280091A030 /* DynamicAnimatorViewController.swift */; };
+		3219FC911E77E8E20091A030 /* loginAnimationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3219FC901E77E8E20091A030 /* loginAnimationVC.swift */; };
 		323DDCB91E68EFFD00D212F5 /* LearnsFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323DDCB81E68EFFD00D212F5 /* LearnsFile.swift */; };
 		323DDCBC1E68F55B00D212F5 /* DjPopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323DDCBB1E68F55B00D212F5 /* DjPopView.swift */; };
+		326080EB1E73807C008EDE5D /* DJVProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326080EA1E73807C008EDE5D /* DJVProgress.swift */; };
+		326080EF1E73A02A008EDE5D /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 326080EE1E73A02A008EDE5D /* MBProgressHUD.m */; };
+		326080F11E73A139008EDE5D /* UIViewController+MBP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326080F01E73A139008EDE5D /* UIViewController+MBP.swift */; };
+		326080F41E73C603008EDE5D /* animLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326080F31E73C603008EDE5D /* animLayer.swift */; };
+		326080F61E73EB75008EDE5D /* HXButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326080F51E73EB75008EDE5D /* HXButton.swift */; };
+		327008BC1E6CE264006EA2D0 /* cgd_testController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327008BB1E6CE264006EA2D0 /* cgd_testController.swift */; };
+		327008BE1E6CF647006EA2D0 /* mySecondTestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327008BD1E6CF647006EA2D0 /* mySecondTestVC.swift */; };
+		327008C71E6D34D2006EA2D0 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327008C61E6D34D2006EA2D0 /* SwiftyJSON.swift */; };
+		327008CC1E6D409A006EA2D0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327008CB1E6D409A006EA2D0 /* User.swift */; };
+		3285EFF01E6F88EC00DE0A48 /* ALMNetWorking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3285EFEF1E6F88EC00DE0A48 /* ALMNetWorking.swift */; };
+		3285EFF21E6FE1F000DE0A48 /* testClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3285EFF11E6FE1F000DE0A48 /* testClass.swift */; };
+		32922D411E766FCE006DEB60 /* person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32922D401E766FCE006DEB60 /* person.swift */; };
+		32922D441E768533006DEB60 /* mapviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32922D431E768533006DEB60 /* mapviewVC.swift */; };
 		32B475851E6A93D100EE6070 /* customColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B475841E6A93D100EE6070 /* customColor.swift */; };
 		32B85B181E68112100D34185 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B85B171E68112100D34185 /* AppDelegate.swift */; };
 		32B85B1A1E68112100D34185 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B85B191E68112100D34185 /* ViewController.swift */; };
@@ -16,12 +34,36 @@
 		32B85B1F1E68112100D34185 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32B85B1E1E68112100D34185 /* Assets.xcassets */; };
 		32B85B221E68112100D34185 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32B85B201E68112100D34185 /* LaunchScreen.storyboard */; };
 		32B85B2F1E68152A00D34185 /* WZYNetworkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B85B2E1E68152A00D34185 /* WZYNetworkTool.swift */; };
+		32D7E37C1E70F54400D5AAF0 /* blockdemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D7E37B1E70F54400D5AAF0 /* blockdemo.swift */; };
+		32DE0FA11E78D7FB00079E49 /* ChangeViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DE0FA01E78D7FB00079E49 /* ChangeViewVC.swift */; };
+		32DE0FA61E78E1BF00079E49 /* ChangeDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DE0FA51E78E1BF00079E49 /* ChangeDemo.swift */; };
 		8B56B624E44AFF5584E0E250 /* Pods_MyFirstSwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB5E490DCDE8563841FB3767 /* Pods_MyFirstSwiftDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3204577E1E6E458D005FE1BF /* jsonTestController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = jsonTestController.swift; sourceTree = "<group>"; };
+		320457801E6EA78D005FE1BF /* DjPopViewDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DjPopViewDemo.swift; sourceTree = "<group>"; };
+		32059AB11E7A6BAA00141C5A /* DemoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoVC.swift; sourceTree = "<group>"; };
+		3219FC8D1E77B6280091A030 /* DynamicAnimatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicAnimatorViewController.swift; sourceTree = "<group>"; };
+		3219FC901E77E8E20091A030 /* loginAnimationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginAnimationVC.swift; sourceTree = "<group>"; };
 		323DDCB81E68EFFD00D212F5 /* LearnsFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LearnsFile.swift; sourceTree = "<group>"; };
 		323DDCBB1E68F55B00D212F5 /* DjPopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DjPopView.swift; sourceTree = "<group>"; };
+		326080EA1E73807C008EDE5D /* DJVProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJVProgress.swift; sourceTree = "<group>"; };
+		326080ED1E73A02A008EDE5D /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		326080EE1E73A02A008EDE5D /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		326080F01E73A139008EDE5D /* UIViewController+MBP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+MBP.swift"; sourceTree = "<group>"; };
+		326080F31E73C603008EDE5D /* animLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = animLayer.swift; sourceTree = "<group>"; };
+		326080F51E73EB75008EDE5D /* HXButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HXButton.swift; sourceTree = "<group>"; };
+		327008BB1E6CE264006EA2D0 /* cgd_testController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cgd_testController.swift; sourceTree = "<group>"; };
+		327008BD1E6CF647006EA2D0 /* mySecondTestVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mySecondTestVC.swift; sourceTree = "<group>"; };
+		327008BF1E6D2E91006EA2D0 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../Library/Developer/Xcode/DerivedData/MyFirstSwiftDemo-emxypxhfylocujcbishuoewdicne/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		327008C61E6D34D2006EA2D0 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		327008CB1E6D409A006EA2D0 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		327008CD1E6D5522006EA2D0 /* HandyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HandyJSON.framework; path = "../../Library/Developer/Xcode/DerivedData/MyFirstSwiftDemo-emxypxhfylocujcbishuoewdicne/Build/Products/Debug-iphonesimulator/HandyJSON/HandyJSON.framework"; sourceTree = "<group>"; };
+		3285EFEF1E6F88EC00DE0A48 /* ALMNetWorking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALMNetWorking.swift; sourceTree = "<group>"; };
+		3285EFF11E6FE1F000DE0A48 /* testClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testClass.swift; sourceTree = "<group>"; };
+		32922D401E766FCE006DEB60 /* person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = person.swift; sourceTree = "<group>"; };
+		32922D431E768533006DEB60 /* mapviewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mapviewVC.swift; sourceTree = "<group>"; };
 		32B475841E6A93D100EE6070 /* customColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customColor.swift; sourceTree = "<group>"; };
 		32B85B141E68112100D34185 /* MyFirstSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32B85B171E68112100D34185 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -32,6 +74,9 @@
 		32B85B231E68112100D34185 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32B85B291E6812CB00D34185 /* MyFirstSwiftDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyFirstSwiftDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		32B85B2E1E68152A00D34185 /* WZYNetworkTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WZYNetworkTool.swift; sourceTree = "<group>"; };
+		32D7E37B1E70F54400D5AAF0 /* blockdemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = blockdemo.swift; sourceTree = "<group>"; };
+		32DE0FA01E78D7FB00079E49 /* ChangeViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeViewVC.swift; sourceTree = "<group>"; };
+		32DE0FA51E78E1BF00079E49 /* ChangeDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeDemo.swift; sourceTree = "<group>"; };
 		7038497CBCBE5882E2D4BA13 /* Pods-MyFirstSwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFirstSwiftDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyFirstSwiftDemo/Pods-MyFirstSwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
 		7A9D1D89A7F4FC88C4839C8B /* Pods-MyFirstSwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFirstSwiftDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyFirstSwiftDemo/Pods-MyFirstSwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		EB5E490DCDE8563841FB3767 /* Pods_MyFirstSwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyFirstSwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,12 +94,98 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32059AB01E7A6B8800141C5A /* defer语法 */ = {
+			isa = PBXGroup;
+			children = (
+				32059AB11E7A6BAA00141C5A /* DemoVC.swift */,
+			);
+			name = "defer语法";
+			sourceTree = "<group>";
+		};
+		3219FC8C1E77B5D70091A030 /* uikit动力效果 */ = {
+			isa = PBXGroup;
+			children = (
+				3219FC8D1E77B6280091A030 /* DynamicAnimatorViewController.swift */,
+			);
+			name = "uikit动力效果";
+			sourceTree = "<group>";
+		};
+		3219FC8F1E77E8C70091A030 /* loginAnima */ = {
+			isa = PBXGroup;
+			children = (
+				3219FC901E77E8E20091A030 /* loginAnimationVC.swift */,
+			);
+			name = loginAnima;
+			sourceTree = "<group>";
+		};
 		323DDCBA1E68F53000D212F5 /* 弹出框提醒 */ = {
 			isa = PBXGroup;
 			children = (
 				323DDCBB1E68F55B00D212F5 /* DjPopView.swift */,
+				320457801E6EA78D005FE1BF /* DjPopViewDemo.swift */,
 			);
 			name = "弹出框提醒";
+			sourceTree = "<group>";
+		};
+		326080E91E73801D008EDE5D /* 加载提示 */ = {
+			isa = PBXGroup;
+			children = (
+				326080ED1E73A02A008EDE5D /* MBProgressHUD.h */,
+				326080EE1E73A02A008EDE5D /* MBProgressHUD.m */,
+				326080EA1E73807C008EDE5D /* DJVProgress.swift */,
+				326080F01E73A139008EDE5D /* UIViewController+MBP.swift */,
+			);
+			name = "加载提示";
+			sourceTree = "<group>";
+		};
+		326080F21E73C5C5008EDE5D /* 加载的按钮 */ = {
+			isa = PBXGroup;
+			children = (
+				326080F31E73C603008EDE5D /* animLayer.swift */,
+				326080F51E73EB75008EDE5D /* HXButton.swift */,
+			);
+			name = "加载的按钮";
+			sourceTree = "<group>";
+		};
+		327008BA1E6CE259006EA2D0 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				327008BB1E6CE264006EA2D0 /* cgd_testController.swift */,
+			);
+			name = GCD;
+			sourceTree = "<group>";
+		};
+		327008C11E6D30EE006EA2D0 /* 三方库引用 */ = {
+			isa = PBXGroup;
+			children = (
+				327008C61E6D34D2006EA2D0 /* SwiftyJSON.swift */,
+			);
+			name = "三方库引用";
+			sourceTree = "<group>";
+		};
+		327008C81E6D4052006EA2D0 /* json转模型 */ = {
+			isa = PBXGroup;
+			children = (
+				327008CB1E6D409A006EA2D0 /* User.swift */,
+				3204577E1E6E458D005FE1BF /* jsonTestController.swift */,
+			);
+			name = "json转模型";
+			sourceTree = "<group>";
+		};
+		32922D3F1E766F9F006DEB60 /* enum_description */ = {
+			isa = PBXGroup;
+			children = (
+				32922D401E766FCE006DEB60 /* person.swift */,
+			);
+			name = enum_description;
+			sourceTree = "<group>";
+		};
+		32922D421E76850A006DEB60 /* map用法 */ = {
+			isa = PBXGroup;
+			children = (
+				32922D431E768533006DEB60 /* mapviewVC.swift */,
+			);
+			name = "map用法";
 			sourceTree = "<group>";
 		};
 		32B475831E6A93A300EE6070 /* categray */ = {
@@ -86,6 +217,18 @@
 		32B85B161E68112100D34185 /* MyFirstSwiftDemo */ = {
 			isa = PBXGroup;
 			children = (
+				32059AB01E7A6B8800141C5A /* defer语法 */,
+				32DE0F9F1E78D7E000079E49 /* 轮播图 */,
+				3219FC8F1E77E8C70091A030 /* loginAnima */,
+				3219FC8C1E77B5D70091A030 /* uikit动力效果 */,
+				32922D421E76850A006DEB60 /* map用法 */,
+				32922D3F1E766F9F006DEB60 /* enum_description */,
+				326080F21E73C5C5008EDE5D /* 加载的按钮 */,
+				326080E91E73801D008EDE5D /* 加载提示 */,
+				32D7E37A1E70F51400D5AAF0 /* 闭包文档 */,
+				327008C81E6D4052006EA2D0 /* json转模型 */,
+				327008C11E6D30EE006EA2D0 /* 三方库引用 */,
+				327008BA1E6CE259006EA2D0 /* GCD */,
 				32B475831E6A93A300EE6070 /* categray */,
 				323DDCBA1E68F53000D212F5 /* 弹出框提醒 */,
 				32B85B2D1E6814FB00D34185 /* 网络类封装 */,
@@ -97,6 +240,8 @@
 				32B85B231E68112100D34185 /* Info.plist */,
 				32B85B291E6812CB00D34185 /* MyFirstSwiftDemo-Bridging-Header.h */,
 				323DDCB81E68EFFD00D212F5 /* LearnsFile.swift */,
+				327008BD1E6CF647006EA2D0 /* mySecondTestVC.swift */,
+				3285EFF11E6FE1F000DE0A48 /* testClass.swift */,
 			);
 			path = MyFirstSwiftDemo;
 			sourceTree = "<group>";
@@ -105,13 +250,33 @@
 			isa = PBXGroup;
 			children = (
 				32B85B2E1E68152A00D34185 /* WZYNetworkTool.swift */,
+				3285EFEF1E6F88EC00DE0A48 /* ALMNetWorking.swift */,
 			);
 			name = "网络类封装";
+			sourceTree = "<group>";
+		};
+		32D7E37A1E70F51400D5AAF0 /* 闭包文档 */ = {
+			isa = PBXGroup;
+			children = (
+				32D7E37B1E70F54400D5AAF0 /* blockdemo.swift */,
+			);
+			name = "闭包文档";
+			sourceTree = "<group>";
+		};
+		32DE0F9F1E78D7E000079E49 /* 轮播图 */ = {
+			isa = PBXGroup;
+			children = (
+				32DE0FA01E78D7FB00079E49 /* ChangeViewVC.swift */,
+				32DE0FA51E78E1BF00079E49 /* ChangeDemo.swift */,
+			);
+			name = "轮播图";
 			sourceTree = "<group>";
 		};
 		BAFFDCF8DD2A25E36A971252 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				327008CD1E6D5522006EA2D0 /* HandyJSON.framework */,
+				327008BF1E6D2E91006EA2D0 /* SwiftyJSON.framework */,
 				EB5E490DCDE8563841FB3767 /* Pods_MyFirstSwiftDemo.framework */,
 			);
 			name = Frameworks;
@@ -250,11 +415,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32922D441E768533006DEB60 /* mapviewVC.swift in Sources */,
 				32B475851E6A93D100EE6070 /* customColor.swift in Sources */,
 				323DDCBC1E68F55B00D212F5 /* DjPopView.swift in Sources */,
+				3219FC8E1E77B6280091A030 /* DynamicAnimatorViewController.swift in Sources */,
+				32DE0FA61E78E1BF00079E49 /* ChangeDemo.swift in Sources */,
+				327008BE1E6CF647006EA2D0 /* mySecondTestVC.swift in Sources */,
+				32D7E37C1E70F54400D5AAF0 /* blockdemo.swift in Sources */,
+				327008BC1E6CE264006EA2D0 /* cgd_testController.swift in Sources */,
+				326080EB1E73807C008EDE5D /* DJVProgress.swift in Sources */,
+				326080F41E73C603008EDE5D /* animLayer.swift in Sources */,
+				3285EFF21E6FE1F000DE0A48 /* testClass.swift in Sources */,
+				326080EF1E73A02A008EDE5D /* MBProgressHUD.m in Sources */,
 				323DDCB91E68EFFD00D212F5 /* LearnsFile.swift in Sources */,
 				32B85B1A1E68112100D34185 /* ViewController.swift in Sources */,
+				3204577F1E6E458D005FE1BF /* jsonTestController.swift in Sources */,
+				320457811E6EA78D005FE1BF /* DjPopViewDemo.swift in Sources */,
+				326080F61E73EB75008EDE5D /* HXButton.swift in Sources */,
+				326080F11E73A139008EDE5D /* UIViewController+MBP.swift in Sources */,
+				32DE0FA11E78D7FB00079E49 /* ChangeViewVC.swift in Sources */,
+				327008C71E6D34D2006EA2D0 /* SwiftyJSON.swift in Sources */,
 				32B85B2F1E68152A00D34185 /* WZYNetworkTool.swift in Sources */,
+				3219FC911E77E8E20091A030 /* loginAnimationVC.swift in Sources */,
+				3285EFF01E6F88EC00DE0A48 /* ALMNetWorking.swift in Sources */,
+				32059AB21E7A6BAA00141C5A /* DemoVC.swift in Sources */,
+				327008CC1E6D409A006EA2D0 /* User.swift in Sources */,
+				32922D411E766FCE006DEB60 /* person.swift in Sources */,
 				32B85B181E68112100D34185 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -380,6 +566,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/AFNetworking\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/SnapKit\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/HandyJSON\"",
+				);
 				INFOPLIST_FILE = MyFirstSwiftDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.olcps.MyFirstSwiftDemo;
@@ -387,6 +579,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "MyFirstSwiftDemo/MyFirstSwiftDemo-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
@@ -396,12 +589,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/AFNetworking\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/SnapKit\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/HandyJSON\"",
+				);
 				INFOPLIST_FILE = MyFirstSwiftDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.olcps.MyFirstSwiftDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "MyFirstSwiftDemo/MyFirstSwiftDemo-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};

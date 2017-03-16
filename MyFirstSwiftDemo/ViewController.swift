@@ -7,35 +7,29 @@
 //
 
 import UIKit
-
+import Kingfisher
 class ViewController: UIViewController {
-    
-    @IBOutlet weak var mylabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor.orange
-        
-    }
 
-    @IBAction func btnAction(_ sender: UIButton) {
-       
-            mylabel.isHidden = !mylabel.isHidden
         
-        DjPopView.addPopView(style: .PopWarning, ppTitle: "提醒", ppContent: "今天是个好日子记得要庆祝", cancelBtnTitle: "不要", okBtnTitle: "好的") { (index) in
-            if index == .okIndex{
-                print("ok")
-            }else{
-                print("cancle")
-            }
-        }
+        
         
     }
-    override func didReceiveMemoryWarning() {
+    
+    @IBAction func btnaction(_ sender: Any) {
+        print("点击了按钮")
+    }
+    
+     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
 
-
+    
 }
+
+
 

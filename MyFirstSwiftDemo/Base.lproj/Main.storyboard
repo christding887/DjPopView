@@ -21,31 +21,30 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="这是一个标签" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J5C-rd-20y">
-                                <rect key="frame" x="135.5" y="323" width="104" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NxP-Rc-Sty">
                                 <rect key="frame" x="156" y="548" width="62" height="30"/>
                                 <state key="normal" title="显示隐藏"/>
                                 <connections>
-                                    <action selector="btnAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="isg-qK-fKg"/>
+                                    <action selector="btnaction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u6g-2j-z03"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jtC-pY-VSM">
+                                <rect key="frame" x="112" y="258" width="150" height="150"/>
+                                <color key="backgroundColor" red="0.37893036265432101" green="0.42018711419753085" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="a4O-n7-hgc"/>
+                                    <constraint firstAttribute="height" constant="150" id="aUB-uh-NMv"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="J5C-rd-20y" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="OcN-9v-cwh"/>
+                            <constraint firstItem="jtC-pY-VSM" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="528-03-S03"/>
                             <constraint firstItem="NxP-Rc-Sty" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="V47-IX-hg8"/>
-                            <constraint firstItem="NxP-Rc-Sty" firstAttribute="top" secondItem="J5C-rd-20y" secondAttribute="bottom" constant="204" id="kTT-al-XFi"/>
-                            <constraint firstItem="J5C-rd-20y" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="khU-2v-1Xi"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="NxP-Rc-Sty" secondAttribute="bottom" constant="89" id="VgE-7G-Gua"/>
+                            <constraint firstItem="jtC-pY-VSM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eyI-Z7-2pY"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="mylabel" destination="J5C-rd-20y" id="np2-Uh-4Oj"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

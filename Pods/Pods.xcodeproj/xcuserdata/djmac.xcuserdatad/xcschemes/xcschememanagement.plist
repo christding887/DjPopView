@@ -9,6 +9,21 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Alamofire.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>HandyJSON.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Kingfisher.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-MyFirstSwiftDemo.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,12 +37,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>2CDEF03217312BCF36E0A0359916A075</key>
+		<key>2771B241FCE337E606D5617826A23443</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6F190EC05579C459091B9A14E45D18FA</key>
+		<key>859381631A24D286CF0D0CDEE6857569</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BC0B4144C6DADAB01B0345A84B90E6DD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C4944FEC314D1A66588651D006273ADE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
