@@ -8,17 +8,16 @@
 
 import UIKit
 
- class testClass: NSObject {
-    let myname:String?
-    let password:String?
+class testClass:NSObject {
+    var myname:String
+    let password:String
     let ts1 = test1()
     let ts2 = test2()
     
-    init(name:String,pass:String) {
-        self.myname = name
-        self.password = pass
+   override init() {
+        self.password = "123"
+        self.myname = "dwc"
     }
-    
     
  func show() {
         print("show time")

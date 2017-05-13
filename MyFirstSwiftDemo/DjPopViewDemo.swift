@@ -5,13 +5,18 @@
 //  Created by dj-xxzx-10065 on 2017/3/7.
 //  Copyright © 2017年 Dong jing Ltd. All rights reserved.
 //
+//UINavigationBar.appearance().barTintColor = UIColor.blueColor(); //设置导航栏的统一的背景色
+//navgationController.navigationBar.barStyle = UIBarStyle.BlackTranslucent; //设置导航栏的样式
+//navgationController.navigationBar.setBackgroundImage(UIImage(named: ""), forBarMetrics: UIBarMetrics.Default); //设置导航栏的背景图
 
+//self.navigationItem.prompt = "正在加载数据"; //设置prompt属性,主要是用来做一些提醒，比如网络请求，数据加载等等
 import UIKit
 
 class DjPopViewDemo: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationItem.prompt = "加载中..."
         view.backgroundColor = UIColor.orange
         let  popBtn = UIButton()
         popBtn.bounds = CGRect(x: 0, y: 0, width: 60, height: 30)
@@ -24,11 +29,16 @@ class DjPopViewDemo: UIViewController {
     }
 
     func dosoming() {
-        DjPopView.addPopView(style: .PopWarning, ppTitle: "提醒", ppContent: "今天是个好日子记得要庆祝", cancelBtnTitle: "不要", okBtnTitle: "好的") { (index) in
+        self.navigationItem.prompt = nil
+        DjPopView.addPopView(style: .PopWarning, ppTitle: "提醒", ppContent: "今天是个好日子记得要庆祝", cancelBtnTitle: "不要", okBtnTitle: "好的") {[weak self] (index) in
             if index == .okIndex{
-                print("ok")
+                //print("ok")
+                let vc = UIViewController()
+                vc.view.backgroundColor = UIColor.blue
+                self?.navigationController?.show(vc, sender: nil)
             }else{
-                print("cancle")
+                self?.dismiss(animated: true, completion: nil);
+                //print("cancle")
             }
         }
 

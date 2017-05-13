@@ -3,3 +3,5 @@
 //
 #import <AFNetworking/AFNetworking.h>
 #import "MBProgressHUD.h"
+#import <CommonCrypto/CommonCrypto.h>
+#import "Users.h"

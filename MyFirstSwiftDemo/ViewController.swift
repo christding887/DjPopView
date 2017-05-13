@@ -8,19 +8,18 @@
 
 import UIKit
 import Kingfisher
+
 class ViewController: UIViewController {
-    
+   
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = UIColor.orange
-
-        
-        
+       
         
     }
-    
+
     @IBAction func btnaction(_ sender: Any) {
-        print("点击了按钮")
+        
+
     }
     
      override func didReceiveMemoryWarning() {
@@ -30,6 +29,10 @@ class ViewController: UIViewController {
 
     
 }
+
+
+
+
 
 
 

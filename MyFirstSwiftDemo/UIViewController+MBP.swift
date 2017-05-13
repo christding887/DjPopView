@@ -14,6 +14,7 @@ extension UIViewController {
     var hud : MBProgressHUD? {
         get{
             return objc_getAssociatedObject(self, &HUDKey) as? MBProgressHUD
+            
         }
         set{
             objc_setAssociatedObject(self, &HUDKey, newValue, objc_AssociationPolicy.OBJC_ASSOCIATION_RETAIN_NONATOMIC)

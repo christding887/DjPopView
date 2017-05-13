@@ -98,7 +98,7 @@ class DjPopView: UIView {
    //自定义按钮
     convenience init(title:String,content:String,cancelBtnTitle:String?,okBtnTitle:String,completeBlock:@escaping ((btnTarget) -> Void)) {
         
-        self.init()
+        self.init(frame: CGRect.zero)
         animaView = UIView()
         addSubview(animaView)
         animaView.snp.makeConstraints { (make) in

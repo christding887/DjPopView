@@ -231,12 +231,12 @@ import Foundation
 //print(incrementBySeven())
 
 //枚举
-enum nameList{
-    case dwc
-    case dwj
-    case hxl
-    case hxc
-}
+//enum nameList{
+//    case dwc
+//    case dwj
+//    case hxl
+//    case hxc
+//}
 //var name = nameList.dwc
 //func choiceName(name:nameList) -> String {
 //    switch name {
@@ -870,6 +870,11 @@ enum nameList{
 //print("res is: \(show.no2)")
 
 
+
+//1、和 "as" 右边类型一致
+//2、是右边类型的子类（这种情况在java里叫向上转型）
+//as? 相当于optional类型，如果转换失败返回nil。
+
 // 你可以使用is、as和as?操作符来检查是否遵循某一协议或强制转化为某一类型
 //protocol HasArea {
 //    var area: Double { get }
@@ -954,6 +959,7 @@ enum nameList{
 //print(studdet.subject)
 //print(studdet.stname)
 
+//泛型
 //swapTwoValues 后面跟着占位类型名（T），并用尖括号括起来（<T>）。这个尖括号告诉 Swift 那个 T 是 swapTwoValues(_:_:) 函数定义内的一个占位类型名，因此 Swift 不会去查找名为 T 的实际类型。
 // 定义一个交换两个变量的函数
 //func swapTwoValues<T>(_ a: inout T, _ b: inout T) {
